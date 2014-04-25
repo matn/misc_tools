@@ -1,19 +1,21 @@
-## Tools
+# Tools
 
 
-# alldebrider.py
+## alldebrider.py
 
-Call alldebrid service to get a debrided link for a given file url.
+Call alldebrid service to get a debrided link from a given file url.
 
-* create the following config file in your home folder: ~/.alldebrid
+* Create the following config file in your home folder: ~/.alldebrid
 
     [credentials]
+    
     username = youralldebridusername
+    
     password = youralldebridpassword
 
 
-* launch the script:
+* Launch the script:
 
-    python alldebrider.py --url <file url>
+    python alldebrider.py --url file_url
 
 
